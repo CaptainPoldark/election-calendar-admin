@@ -1,7 +1,16 @@
 {
   "name": "election-calendar-admin",
+  "author": "Jonathankyle Brooks",
+  "description": "Admin panel for the election countdown module to be used on election websites",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "homepage": "https://captainpoldark.github.io/election-calendar-admin",
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
